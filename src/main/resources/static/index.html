@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset=”utf-8”>
+    <script src="client.js"></script>
+</head>
+<body>
+    <ul class="userList"></ul>
+    <br>
+    <div id="line">
+        <h3 id="msg">...</h3>
+    </div>
+    <br>
+    <div id="buttons">
+        <button id="connectServerBtn" onclick="createConnection()">Connect to server</button>
+        <button id="btn" onclick="call()">start call</button>
+        <button id="test" onclick="test()">test</button>
+        <button id="btnStop" onclick="stopCall()">stop call</button>
+    </div>
+    <br>
+    <div id="videos">
+        <video id="localVideo" autoplay></video>
+        <video id="remoteVideo" autoplay></video>
+    </div>
+</body>
+</html>
